@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(43,35,0);
+  background: linear-gradient(90deg, rgba(43,35,0,0) 0%, rgba(174,194,208,0.465721322708771) 100%, rgba(0,212,255,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.g-card {
+  margin: 20px;
+}
+
+.g-card-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0 0 3px 1px #ccc;
+  object-fit: contain;
+}
+
+.g-card-info {
+ margin-top: 10px;
+  min-height: 100px;
+}
+
+.g-card-title{
+  font-size: 24px;
+  margin: 0;
+}
+
+.g-card-sub-title{
+  font-size: 16px;
+  margin: 0;
 }
